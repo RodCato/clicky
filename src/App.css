@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -35,4 +36,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 27px;
+  background: #3498db;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+img {
+  display: block;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
